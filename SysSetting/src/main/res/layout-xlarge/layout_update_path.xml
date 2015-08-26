@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/WmHm"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/ds_little">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="更改存储位置"
+            android:textColor="@color/col_white"
+            android:textSize="@dimen/ds_content_title_tx_size"/>
+
+        <ProgressBar
+            android:id="@+id/id_ex_file_path_load_bar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            />
+
+        <Button
+            android:id="@+id/id_ex_file_path_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/normal_bt_selector"
+            android:padding="@dimen/ds_little"
+            android:text="保存"
+            android:textColor="@color/col_white"
+            android:textSize="@dimen/ds_normal_text_size_little"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/id_ex_current_path"
+        android:background="@drawable/normal_bt_selector"
+        android:textColor="@color/col_white"
+        android:gravity="left|center_vertical"
+        android:layout_margin="@dimen/ds_little"
+        android:textStyle="normal"
+        android:paddingLeft="@dimen/ds_mid"
+        android:ellipsize="start"
+        android:drawablePadding="@dimen/ds_little"
+        android:singleLine="true"
+        android:paddingTop="@dimen/ds_little"
+        android:paddingBottom="@dimen/ds_little"
+        android:textSize="@dimen/ds_normal_text_size_little"
+        style="@style/WmHw"/>
+
+    <RelativeLayout android:id="@+id/id_layout_update_path"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/ds_little"
+                    android:orientation="vertical">
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout_line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/ds_10"
+        android:orientation="horizontal">
+
+        <com.angcyo.connectadmin.view.IPEditText
+            android:id="@+id/id_ipedit_text"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/id_bt_service_ip"
+            style="@style/ButtonNormal"
+            android:text="更新地址"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_line2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_line1"
+        android:layout_margin="@dimen/ds_10"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/id_et_device_name"
+            style="@style/EditTextNormal"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="设备名称"
+            android:singleLine="true"/>
+
+        <Button
+            android:id="@+id/id_bt_device_name"
+            style="@style/ButtonNormal"
+            android:text="设置名称"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_line3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_line2"
+        android:layout_margin="@dimen/ds_10"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/id_et_send_msg"
+            style="@style/EditTextNormal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="要发送的消息"
+            android:maxLines="5"/>
+
+        <Button
+            android:id="@+id/id_bt_send_msg"
+            style="@style/ButtonNormal"
+            android:text="发送消息"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/id_bt_submit"
+        android:visibility="gone"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="right"
+        android:layout_margin="40dp"
+        android:background="@drawable/round_bt_bg_selector"
+        android:text="提交"
+        android:textColor="@drawable/normal_tx_color_selector"
+        android:textSize="@dimen/ds_tx_small_title_size"/>
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/zckj_small"/>
+
+    <include
+        layout="@layout/layout_first_config"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/id_bt_start_main"
+        android:layout_width="@dimen/ds_round_bt_size"
+        android:layout_height="@dimen/ds_round_bt_size"
+        android:layout_gravity="right"
+        android:layout_margin="30dp"
+        android:background="@drawable/round_bt_bg_selector"
+        android:onClick="onMain"
+        android:text="开始"
+        android:textColor="@drawable/normal_tx_color_selector"
+        android:textSize="@dimen/ds_tx_size"/>
+
+</LinearLayout>

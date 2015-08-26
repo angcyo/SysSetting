@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextViewHintNormal"
+            android:text="连接设备名称:"/>
+
+        <TextView
+            android:id="@+id/id_tx_device_name"
+            style="@style/TextViewNormal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextViewHintNormal"
+            android:text="服务器当前IP:"/>
+
+        <TextView
+            android:id="@+id/id_tx_service_ip"
+            style="@style/TextViewNormal"
+            android:text="-.-.-.-"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextViewHintNormal"
+            android:text="本地IP:"/>
+
+        <TextView
+            android:id="@+id/id_tx_local_ip"
+            style="@style/TextViewNormal"
+            android:text="-.-.-.-"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextViewHintNormal"
+            android:text="本地MAC地址:"/>
+
+        <TextView
+            android:id="@+id/id_tx_local_mac"
+            style="@style/TextViewNormal"
+            android:text="-.-.-.-"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextViewHintNormal"
+            android:text="使用端口:"/>
+
+        <TextView
+            android:id="@+id/id_tx_port"
+            style="@style/TextViewNormal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextViewHintNormal"
+            android:text="网络状态:"/>
+
+        <TextView
+            android:id="@+id/id_tx_socket_state"
+            style="@style/TextViewNormal"/>
+
+    </LinearLayout>
+
+</LinearLayout>

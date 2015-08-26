@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../connectadmin/src/main/java/com/angcyo/util/DownloadRunnable.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../connectadmin/src/main/java/com/angcyo/util/IDownload.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../connectadmin/src/main/java/com/angcyo/util/ISocket.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../connectadmin/src/main/java/com/angcyo/util/bean/AppInfo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../connectadmin/src/main/java/com/angcyo/util/bean/DownTask.java" charset="UTF-8" />
+  </component>
+</project>

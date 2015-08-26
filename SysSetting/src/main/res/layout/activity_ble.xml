@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Hello Ble"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openBle"
+        android:background="@drawable/normal_bt_selector"
+        android:text="打开蓝牙"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="closeBle"
+        android:background="@drawable/normal_bt_selector"
+        android:text="关闭蓝牙"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="getAllBle"
+        android:background="@drawable/normal_bt_selector"
+        android:text="枚举所有已安装的BLE设备"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startScanner"
+        android:background="@drawable/normal_bt_selector"
+        android:text="开始搜索"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="stopScanner"
+        android:background="@drawable/normal_bt_selector"
+        android:text="停止搜索"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onNextView"
+        android:background="@drawable/normal_bt_selector"
+        android:text="next view"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onPrevView"
+        android:background="@drawable/normal_bt_selector"
+        android:text="prev view "/>
+
+    <ViewSwitcher
+        android:id="@+id/id_switch_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/normal_bt_selector"
+            android:text="测试按钮1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/normal_bt_selector"
+            android:text="测试按钮2"/>
+
+    </ViewSwitcher>
+
+</LinearLayout>

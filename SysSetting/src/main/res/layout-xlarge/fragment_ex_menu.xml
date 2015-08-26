@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="高级设置"
+            android:textColor="@color/col_menu_title"
+            android:textSize="@dimen/ds_menu_title_tx_size" />
+
+        <RadioGroup
+            android:id="@+id/id_ex_menu_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checkedButton="@+id/id_rb_ex_display"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/id_rb_ex_display"
+                style="@style/RadioButtonStyle"
+                android:drawableLeft="@drawable/img_display"
+                android:text="屏幕显示" />
+
+            <RadioButton
+                android:id="@+id/id_rb_ex_storage"
+                style="@style/RadioButtonStyle"
+                android:drawableLeft="@drawable/img_storage"
+                android:text="存储位置" />
+
+            <RadioButton
+                android:id="@+id/id_rb_ex_password"
+                style="@style/RadioButtonStyle"
+                android:drawableLeft="@drawable/img_password"
+                android:text="密码设置" />
+
+            <RadioButton
+                android:id="@+id/id_rb_ex_update_path"
+                style="@style/RadioButtonStyle"
+                android:drawableLeft="@drawable/img_update_path"
+                android:text="更新目录路径" />
+
+            <RadioButton
+                android:id="@+id/id_rb_ex_clear_fete"
+                style="@style/RadioButtonStyle"
+                android:drawableLeft="@drawable/img_clear_fete"
+                android:text="节目清理" />
+        </RadioGroup>
+    </LinearLayout>
+
+</ScrollView>

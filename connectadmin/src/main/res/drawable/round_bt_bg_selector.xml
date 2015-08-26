@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/col_title2"/>
+            <size android:width="@dimen/ds_round_bt_bg_size" android:height="@dimen/ds_round_bt_bg_size"/>
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/col_view_bg_focus"/>
+            <stroke android:width="2dp" android:color="@color/col_title1"/>
+            <size android:width="@dimen/ds_round_bt_bg_size" android:height="@dimen/ds_round_bt_bg_size"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/col_title1"/>
+            <size android:width="@dimen/ds_round_bt_bg_size" android:height="@dimen/ds_round_bt_bg_size"/>
+        </shape>
+    </item>
+
+</selector>

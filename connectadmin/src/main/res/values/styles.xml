@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="IPEditStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:inputType">number</item>
+        <item name="android:selectAllOnFocus">true</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:text">0</item>
+        <item name="android:textColor">@color/col_ip_tx</item>
+    </style>
+
+    <style name="IPTextPointStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/point</item>
+        <item name="android:textColor">@color/col_ip_tx</item>
+    </style>
+
+    <style name="ButtonNormal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/normal_bt_selector</item>
+        <item name="android:textColor">@drawable/normal_tx_color_selector</item>
+        <item name="android:padding">@dimen/ds_5</item>
+        <item name="android:textSize">@dimen/ds_bt_tx_size</item>
+    </style>
+
+    <style name="EditTextNormal">
+        <item name="android:background">@drawable/normal_et_bg_selector</item>
+        <item name="android:textColor">@color/col_content_tx</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:padding">@dimen/ds_10</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:textColorHint">@color/col_content_tx</item>
+    </style>
+
+    <style name="TextViewNormal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/col_tx</item>
+        <item name="android:textSize">@dimen/ds_tx_small_title_size</item>
+        <item name="android:gravity">left</item>
+        <item name="android:text">-</item>
+    </style>
+
+    <style name="TextViewHintNormal" parent="TextViewNormal">
+        <item name="android:layout_width">@dimen/ds_state_info_width</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

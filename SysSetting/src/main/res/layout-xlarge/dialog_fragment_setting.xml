@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/col_content_bg_x" >
+
+    <LinearLayout
+        android:id="@+id/layout_line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/id_bt_base_set"
+            style="@style/SetButtonStyle"
+            android:focusable="true"
+            android:drawableTop="@drawable/img_base_set"
+            android:text="基本设置" />
+
+        <Button
+            android:id="@+id/id_bt_net_set"
+            style="@style/SetButtonStyle"
+            android:drawableTop="@drawable/img_net_set"
+            android:text="网络设置" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_line2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_line1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/id_bt_ex_set"
+            style="@style/SetButtonStyle"
+            android:drawableTop="@drawable/img_ex_set"
+            android:text="高级" />
+
+        <Button
+            android:id="@+id/id_bt_more_set"
+            style="@style/SetButtonStyle"
+            android:drawableTop="@drawable/img_more_set"
+            android:text="更多" />
+    </LinearLayout>
+
+</RelativeLayout>

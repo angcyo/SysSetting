@@ -1,0 +1,1 @@
+include ':syssetting', ':fileselectdemo', ':mylibrary', ':treeview', ':androidtreeview', ':demotest', ':camerademo', ':launcherdemo', ':connectservice', ':connectadmin', ':vsplayer', ':app'

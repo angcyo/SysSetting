@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="diameter">40dp</dimen>
+    <dimen name="ds_state_info_width">100dp</dimen>
+
+    <dimen name="ds_round_bt_bg_size">10dp</dimen>
+    <dimen name="ds_round_bt_size">60dp</dimen>
+
+    <dimen name="ds_tx_small_title_size">12sp</dimen>
+    <dimen name="ds_tx_size">20sp</dimen>
+
+    <dimen name="ds_30">20dp</dimen>
+    <dimen name="ds_20">10dp</dimen>
+    <dimen name="ds_10">5dp</dimen>
+    <dimen name="ds_5">3dp</dimen>
+
+    <dimen name="ds_et_tx_size">30sp</dimen>
+    <dimen name="ds_bt_tx_size">20sp</dimen>
+</resources>

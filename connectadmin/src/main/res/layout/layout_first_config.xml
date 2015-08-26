@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/id_layout_first"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_bg"
+    android:orientation="vertical"
+    android:padding="@dimen/ds_30"
+    android:visibility="gone">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="首次运行,请先配置服务器IP"
+        android:textColor="@color/col_tx"
+        android:textSize="@dimen/ds_tx_size"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ds_5"
+        android:layout_marginTop="@dimen/ds_10"
+        android:text="->也可以在之后修改\n->默认端口9925"
+        android:textColor="@color/col_tx"
+        android:textSize="@dimen/ds_tx_small_title_size"/>
+
+    <com.angcyo.connectadmin.view.IPEditText
+        android:id="@+id/id_ipedit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ds_30"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/id_bt_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/ds_10"
+        android:background="@drawable/normal_bt_bg_selector"
+        android:gravity="center"
+        android:paddingBottom="@dimen/ds_5"
+        android:paddingTop="@dimen/ds_5"
+        android:text="保存并启动服务"
+        android:textColor="@drawable/normal_tx_color_selector"
+        android:textSize="@dimen/ds_tx_size"/>
+
+</LinearLayout>

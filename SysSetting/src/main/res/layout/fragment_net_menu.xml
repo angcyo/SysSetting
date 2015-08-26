@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="网络设置"
+        android:textColor="@color/col_black"
+        android:textSize="30sp" />
+
+    <RadioGroup
+        android:id="@+id/id_net_set_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/id_rb_net_wifi"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/id_rb_net_wifi"
+            style="@style/RadioButtonStyle"
+            android:drawableLeft="@drawable/img_wifi"
+            android:text="WIFI 设置" />
+
+        <RadioButton
+            android:id="@+id/id_rb_net_wan"
+            style="@style/RadioButtonStyle"
+            android:drawableLeft="@drawable/img_wan"
+            android:text="以太网设置" />
+
+<!--         <RadioButton
+            android:id="@+id/id_rb_3"
+            style="@style/RadioButtonStyle"
+            android:text="终端命名" />
+
+        <RadioButton
+            android:id="@+id/id_rb_4"
+            style="@style/RadioButtonStyle"
+            android:text="..." /> -->
+    </RadioGroup>
+
+</LinearLayout>

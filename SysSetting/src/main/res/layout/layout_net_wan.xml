@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/WmHm"
+              android:orientation="vertical" >
+
+    <TextView
+        style="@style/WmHw"
+        android:layout_marginLeft="@dimen/ds_little"
+        android:layout_marginTop="@dimen/ds_little"
+        android:text="WAN口设置"
+        android:textSize="@dimen/ds_content_title_tx_size" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        style="@style/WwHw"
+        android:layout_gravity="right"
+        android:layout_margin="@dimen/ds_mid"
+        android:background="@drawable/normal_bt_selector"
+        android:text="保存"
+        android:textColor="@drawable/normal_tx_selector" />
+
+</LinearLayout>

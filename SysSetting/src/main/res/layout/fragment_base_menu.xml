@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="基本设置"
+        android:textColor="@color/col_black"
+        android:textSize="@dimen/ds_menu_title_tx_size"/>
+
+    <RadioGroup
+        android:id="@+id/id_base_set_rgroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/id_rb_server_ip"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/id_rb_server_ip"
+            style="@style/RadioButtonStyle"
+            android:drawableLeft="@drawable/img_server_ip"
+            android:text="服务器IP设置"/>
+
+        <RadioButton
+            android:id="@+id/id_rb_terminal_name"
+            style="@style/RadioButtonStyle"
+            android:drawableLeft="@drawable/img_terminal_name"
+            android:text="终端命名"/>
+    </RadioGroup>
+
+</LinearLayout>

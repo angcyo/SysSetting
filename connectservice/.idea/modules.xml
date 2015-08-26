@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../SysSetting.iml" filepath="$PROJECT_DIR$/../SysSetting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../androidtreeview/androidtreeview.iml" filepath="$PROJECT_DIR$/../androidtreeview/androidtreeview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../app/app.iml" filepath="$PROJECT_DIR$/../app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../camerademo/camerademo.iml" filepath="$PROJECT_DIR$/../camerademo/camerademo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../connectadmin/connectadmin.iml" filepath="$PROJECT_DIR$/../connectadmin/connectadmin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/connectservice.iml" filepath="$PROJECT_DIR$/connectservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../demotest/demotest.iml" filepath="$PROJECT_DIR$/../demotest/demotest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../fileselectdemo/fileselectdemo.iml" filepath="$PROJECT_DIR$/../fileselectdemo/fileselectdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../launcherdemo/launcherdemo.iml" filepath="$PROJECT_DIR$/../launcherdemo/launcherdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mylibrary/mylibrary.iml" filepath="$PROJECT_DIR$/../mylibrary/mylibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../treeview/treeview.iml" filepath="$PROJECT_DIR$/../treeview/treeview.iml" />
+    </modules>
+  </component>
+</project>

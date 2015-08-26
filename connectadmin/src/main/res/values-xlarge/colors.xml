@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="col_ip_tx">#FFFFFF</color>
+    <color name="col_menu_bg">#3C3F41</color>
+    <color name="col_content_bg">#2B2B2B</color>
+
+    <color name="col_content_tx">#FFFFFF</color>
+    <color name="col_tx">#FFFFFF</color>
+</resources>

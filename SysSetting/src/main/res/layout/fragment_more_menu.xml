@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="更多"
+        android:textColor="@color/col_black"
+        android:textSize="30sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/id_more_set_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checkedButton="@+id/id_rb_more_run_bmp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/id_rb_more_run_bmp"
+                    style="@style/RadioButtonStyle"
+                    android:drawableLeft="@drawable/img_run_image"
+                    android:text="启动画面"/>
+
+                <RadioButton
+                    android:id="@+id/id_rb_more_time_volume"
+                    style="@style/RadioButtonStyle"
+                    android:drawableLeft="@drawable/img_volume"
+                    android:text="定时音量"/>
+
+                <RadioButton
+                    android:id="@+id/id_rb_more_time_close"
+                    style="@style/RadioButtonStyle"
+                    android:drawableLeft="@drawable/img_shutdown"
+                    android:text="定时关开机"/>
+
+        <!--        <RadioButton
+                    android:id="@+id/id_rb_more_add_task"
+                    style="@style/RadioButtonStyle"
+                    android:drawableLeft="@drawable/img_add_task"
+                    android:text="添加计划任务"/>
+-->
+                <RadioButton
+                    android:id="@+id/id_rb_more_apk_ver"
+                    style="@style/RadioButtonStyle"
+                    android:drawableLeft="@drawable/img_about"
+                    android:text="APK版本"/>
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

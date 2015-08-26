@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/WmHw"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/normal_bt_selector"
+        android:padding="@dimen/ds_mid"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/WmHw"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/id_tx_task_time"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_gravity="center_vertical"
+                android:textSize="25sp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/id_tx_volume_value"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/img_volume"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="@dimen/ds_big"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/id_tx_task_state"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/id_tx_period"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

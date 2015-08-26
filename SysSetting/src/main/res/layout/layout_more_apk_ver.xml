@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/WmHm"
+              android:orientation="vertical">
+
+    <TextView
+        style="@style/WmHw"
+        android:layout_marginLeft="@dimen/ds_little"
+        android:layout_marginTop="@dimen/ds_little"
+        android:text="APK版本信息"
+        android:textSize="@dimen/ds_content_title_tx_size"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            style="@style/WwHw"
+            android:src="@drawable/logo"/>
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/ds_little"
+            android:orientation="horizontal"
+            style="@style/WwHw">
+
+            <TextView
+                android:text="版本代号:"
+                android:textSize="@dimen/ds_text_normal_size"
+                style="@style/WwHw"/>
+
+            <TextView
+                android:id="@+id/id_apk_ver_code"
+                android:textSize="@dimen/ds_text_normal_size"
+                style="@style/WwHw"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/ds_little"
+            style="@style/WwHw">
+
+            <TextView
+                android:text="版本名称:"
+                android:textSize="@dimen/ds_text_normal_size"
+                style="@style/WwHw"/>
+
+            <TextView
+                android:id="@+id/id_apk_ver_name"
+                android:textSize="@dimen/ds_text_normal_size"
+                style="@style/WwHw"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
